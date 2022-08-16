@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 8ff272f1-3deb-490a-b77b-1d29af998bc8
+  loglevel: INFO
+  name: newGitjob
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo "new git job"
+    keepgoing: false
+    strategy: node-first
+  uuid: 8ff272f1-3deb-490a-b77b-1d29af998bc8
+
