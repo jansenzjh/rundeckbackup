@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: 2594312a-998c-4716-8e3d-c3ca874698af
+  loglevel: INFO
+  name: test job 4
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo "good guy"
+    keepgoing: false
+    strategy: node-first
+  uuid: 2594312a-998c-4716-8e3d-c3ca874698af
+

@@ -1,0 +1,26 @@
+- defaultTab: nodes
+  description: test job
+  executionEnabled: true
+  id: c7fea9d3-aaf3-45e5-8661-f4d8b1ea2cfd
+  loglevel: INFO
+  name: test job
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  schedule:
+    month: '*'
+    time:
+      hour: '*'
+      minute: '*'
+      seconds: '6'
+    weekday:
+      day: '*'
+    year: '*'
+  scheduleEnabled: false
+  sequence:
+    commands:
+    - script: echo "nice!"
+    keepgoing: false
+    strategy: node-first
+  uuid: c7fea9d3-aaf3-45e5-8661-f4d8b1ea2cfd
+
